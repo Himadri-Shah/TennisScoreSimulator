@@ -14,6 +14,8 @@ namespace TennisScoreSimulator.TennisScoreSimulator
          int Sets { get; }
          int TieBrakerPoints { get; }
 
+         
+        
         void WinPoint();
         void WinGame();
         void WinSet();

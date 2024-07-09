@@ -50,8 +50,8 @@ namespace TennisScoreSimulator
                 Player player2 = new Player(name2);
                 ITennisGame tennisGame = new TennisGame(player1, player2);
                 string input = string.Empty;
-                //string pattern = @"^-?\d+(?:,-?\d+)*$";
-                string pattern = @"^(0|1)(,(0|1))*$";
+                string pattern = @"^\s*[01](\s*,\s*[01])*\s*$";
+                
 
                 do
                 {

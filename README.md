@@ -5,24 +5,24 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Features](#Features)
-- [Implementation of SOLID Principles](#ImplementationSOLIDPrinciples)
-- [Tech Stack](#TechStack)
+- [Features](#features)
+- [Implementation of SOLID Principles](#implementationsolidprinciples)
+- [Tech Stack](#techstack)
 - [Installation](#installation)
-- [Usage](#Usage)
-- [Output](#Output)
+- [Usage](#usage)
+- [Output](#output)
 
 
 ###  <a name="overview"></a>Overview
 This project simulates a tennis match in a .NET console application. It allows users to simulate matches between two players, track scores, and determine match outcomes based on tennis rules.
 
-### Features
+### <a name="features">Features
 •	Simulates tennis matches between two players.                                       
 •	Tracks scores: points, games, and sets.                                   
 •	Handles tiebreak situations.                
 •	Handles Deuce-Advantage situations.
 
-### Implementation of SOLID Principles
+### <a name="implementationsolidprinciples"></a>Implementation of SOLID Principles
 •	Single Responsibility Principle: Each class (Player, TennisGame) has a clear responsibility                                                                  
     (e.g., Player manages player state, TennisGame manages the game logic and scoring)
 
@@ -35,7 +35,7 @@ This project simulates a tennis match in a .NET console application. It allows u
 
 •	Dependency Inversion Principle: Classes depend on abstractions (e.g., Player class) rather than concrete implementations.
 
-### Tech Stack
+### <a name="techstack"></a>Tech Stack
 
 •	Visual Studio 2019                                      
 •	C#.Net                              
@@ -59,7 +59,7 @@ cd TennisScore_Simulator
 dotnet build
 ```
 
-### Usage
+### <a name="usage"></a>Usage
 1.	Run the application:
 ```
 dotnet run
@@ -71,7 +71,7 @@ o	Customize match settings if prompted.
 o	Begin the match simulation.
 3.	The application will display real-time scoring updates and match progress.
 
-### Output
+### <a name="output"></a>Output
 
 1. Example Input Data
    ![image](https://github.com/Himadri-Shah/TennisScoreSimulator/assets/58495795/a0ec2e10-44b9-46b3-9222-8bb9c6dd2041)
